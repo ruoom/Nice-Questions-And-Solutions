@@ -6,5 +6,5 @@ you can also view other people's uploaded questions, solutions and codes!
 When you want to upload code, you should follow these rules.
 - You should select the folder that corresponds to the OJ where the question originated. If there is no such folder, you can create a new one in the root directory, named after the OJ.
 - Create a new folder under this folder and name it `Question ID` + `Question Title Name`. For example `CF1242D Number Discovery`, `P2067 Cytus-Holyknight`.
-- Create a file named `readme.md` and add tags, including the difficulty of the Question, the type of Question, etc. You can also paste in the problem description
+- Create a file named `readme.md` and add tags, including the difficulty of the Question, the type of Question, etc. You can also paste in the problem description.
 - Upload your solution in the folder, named after the author. If you have multiple solutions, you can add a numeric suffix to the file name, such as `unoexp 01.cpp`.
