@@ -1,4 +1,4 @@
-[CF1383A String Transformation 1](https://codeforces.com/contest/1383/problem/A)
+# [CF1383A String Transformation 1](https://codeforces.com/contest/1383/problem/A)
 # tags
 `dsu` `graphs` `greedy` `sortings` `strings` `trees` `two pointers` `*1700`
 # description
