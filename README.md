@@ -1,4 +1,4 @@
-# nice-questions-and-solutions
+# Nice-Questions-and-Solutions
 When you come across good questions or beautiful solutions, you can upload them to this repository!
 you can also view other people's uploaded questions, solutions and codes!
 
