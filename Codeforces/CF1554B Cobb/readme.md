@@ -1,4 +1,7 @@
 # [CF1554B Cobb](https://codeforces.com/problemset/problem/1554/B)
+# tags
+`bitmasks` `brute force` `greedy` `math` `*1700`
+# description
 You are given n integers a1,a2,…,an and an integer k. Find the maximum value of i⋅j−k⋅(ai|aj) over all pairs (i,j) of integers with 1≤i<j≤n. Here, | is the bitwise OR operator.
 
 Input
