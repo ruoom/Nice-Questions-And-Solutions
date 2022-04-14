@@ -16,7 +16,7 @@ It is guaranteed that the sum of n over all test cases doesn't exceed 3⋅105.
 Output
 For each test case, print a single integer  — the maximum possible value of i⋅j−k⋅(ai|aj).
 
-## INPUT
+## input
 ```
 4
 3 3
@@ -28,7 +28,7 @@ For each test case, print a single integer  — the maximum possible value of i�
 6 6
 3 2 0 0 5 6
 ```
-## OUTPUT
+## output
 ```
 -1
 -4
