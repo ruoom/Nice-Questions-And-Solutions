@@ -1,5 +1,8 @@
 # [CF1475C](https://codeforces.com/contest/1475/problem/C)
 
+#tags
+`combinatorics` `graphs` `math` `*1400`
+
 # description
 At the school where Vasya is studying, preparations are underway for the graduation ceremony. One of the planned performances is a ball, which will be attended by pairs of boys and girls.
 
