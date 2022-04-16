@@ -1,6 +1,6 @@
 # [CF1475C](https://codeforces.com/contest/1475/problem/C)
 
-#tags
+# tags
 `combinatorics` `graphs` `math` `*1400`
 
 # description
