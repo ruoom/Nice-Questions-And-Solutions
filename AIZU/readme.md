@@ -1,2 +1,2 @@
 # AIZU ONLINE JUDGE
-<table><tr><td bgcolor=#ff69b4> <img src = https://judge.u-aizu.ac.jp/onlinejudge/image/common/aizu_logo.png> </img> </td></tr></table>
+![image](https://user-images.githubusercontent.com/44316768/163675933-9d2300fd-f986-4859-b547-a835cafd126d.png)
