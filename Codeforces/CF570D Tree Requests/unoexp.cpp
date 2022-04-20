@@ -179,4 +179,4 @@ signed main() {
     for (int i = 1; i <= m; ++i) {
         cout << (ans[i] == (ans[i] & -ans[i]) ? "Yes" : "No") << endl;
     }
-}
+} 
