@@ -13,11 +13,11 @@ You are given an array a consisting of n integers. You have to calculate the sum
 
 给一长度为n的数组, 给函数:
 
-![](https://latex.codecogs.com/svg.image?d(x,y)&space;=&space;\begin{cases}y-x,&space;&|x-y|>1&space;\\0,&space;&|x-y|\leq1&space;&space;&space;&space;\end{cases})
-
+![公式](https://user-images.githubusercontent.com/44316768/164254037-08af120d-acd6-4198-b8f8-f837939b3f18.svg)
 计算:
 
-![](https://latex.codecogs.com/svg.image?\sum^{n}_{i=1}\sum^{n}_{j=i&plus;1}d(a_i,a_j))
+![公式](https://latex.codecogs.com/svg.image?\sum^{n}_{i=1}\sum^{n}_{j=i&plus;1}d(a_i,a_j))
+
 
 
 Input
