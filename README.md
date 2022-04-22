@@ -10,3 +10,7 @@ When you want to upload code, you should follow these rules.
 - Create a new folder under this folder and name it `Question ID` + `Question Title Name`. For example `CF1242D Number Discovery`, `P2067 Cytus-Holyknight`.
 - Create a file named `readme.md` and add tags, including the difficulty of the Question, the type of Question, etc. You can also paste in the question description.
 - Upload your solution in the folder, named after the author. If you have multiple solutions, you can add a numeric suffix to the file name, such as `unoexp 01.cpp`.
+
+
+# Contest
+If you want to share a problem set or a contest, you should create a new folder in `Contest\` Then place problems in folder `Contest\YourFloder`. 
