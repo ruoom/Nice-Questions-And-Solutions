@@ -50,5 +50,5 @@ Output exactly k lines, each containing one integer — the answer to the corres
 
 
 
-
+**bitset来维护任意两点共用一个圆的数量!!**
 
