@@ -59,4 +59,4 @@ Print n - 1 integer. The integers should be separated by spaces. The i-th nu
 ## output
 ```
 3 1 1 1 
-```
+``` 
