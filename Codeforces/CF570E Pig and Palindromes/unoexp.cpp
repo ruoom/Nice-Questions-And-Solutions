@@ -44,6 +44,7 @@ const int dx[4]{ 1,0,-1,0 }, dy[4]{ 0,1,0,-1 }; // for every grid problem!!
 //-------------------------------------------------------------------------------------
 
 const int mod = 1e9 + 7;
+// 自动驱魔模板
 int norm(int x) {
     if (x < 0) {
         x += mod;
@@ -119,8 +120,8 @@ const int N = 503;
 
 char s[N][N];
 
+//滚动数组优化第一维 now表示当前状态 pre表示前一状态
 int f[2][N][N];
-
 int now(int x) {
     return x & 1;
 }
@@ -138,30 +139,37 @@ signed main() {
             cin >> s[i][j];
         }
     }
+    //首尾不同, 则不可能是回文 输出0
     if (s[1][1] != s[n][m]) {
         cout << 0 << endl;return 0;
     }
+    //分别从头和尾走 x+y最多mx
     int mx = (n + m + 2) / 2;
     Z ans = 0;
     f[1][1][n] = 1;
+    //枚举步数
     for (int i = 2; i <= mx; ++i) {
+        //枚举两边的x
         for (int x1 = 1; x1 <= n; ++x1) {
             for (int x2 = 1; x2 <= n;++x2) {
+                //计算出两边的y
                 int y1 = i - x1, y2 = m + n + 2 - i - x2;
-                
+                //检查y是否合法
                 if (y1 < 1 || y2 < 1 || y1 > m || y2 > m)continue;
                 Z res = 0;
                 f[now(i)][x1][x2] = 0;
+                //不相等则无法回文, 跳过
                 if (s[x1][y1] != s[x2][y2])continue;
 
+                //前面四个状态 参考Acwing 275 传纸条
                 res += f[pre(i)][x1][x2];
                 res += f[pre(i)][x1][x2 + 1];
                 res += f[pre(i)][x1 - 1][x2];
                 res += f[pre(i)][x1 - 1][x2 + 1];
-                f[now(i)][x1][x2] = res.val();
                 
+                f[now(i)][x1][x2] = res.val();
+                //如果走完了 而且两点相差至少是1 就加上答案                
                 if (i == mx && abs(x1 - x2) + abs(y1 - y2) <= 1) {
-                    debug(i, x1, y1, x2, y2, res.val());
                     ans += res;
                 }
             }
