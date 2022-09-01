@@ -1,3 +1,3 @@
 
 # Codeforces
- ![logo](https://cdn.codeforces.com/s/60269/images/codeforces-sponsored-by-ton.png)
+ ![logo](https://codeforces.org/s/84525/images/codeforces-logo-with-telegram.png)
