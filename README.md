@@ -13,4 +13,4 @@ When you want to upload code, you should follow these rules.
 
 
 # Contest
-If you want to share a problem set or a contest, you should create a new folder in `Contest\` Then place problems in folder `Contest\YourFloder`. 
+If you want to share a problem set or a contest, you should create a new folder in `Contest/` Then place problems in folder `Contest/YourFloder`. 
