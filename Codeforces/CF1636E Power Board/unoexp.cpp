@@ -87,7 +87,7 @@ signed main() {
                     cnt1++;
                     if (!first) first = j;
                     //x行和y行中相同的元素 以a为底, 指数肯定是x和y的公倍数
-                    //sum = min((cnt + 1) * m, lcm(sum, j));
+                    //sum = min((cnt + 1) * m, lcm(sum, j)); //不用
                     sum = lcm(sum, j);
                 }
             }
